@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-service
+  profiles:
+    include: native
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        native:
+          searchLocations: classpath:/config-repo

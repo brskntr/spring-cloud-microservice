@@ -1,8 +1,8 @@
 server:
-  port: 8761
+  port: 8879
 spring :
   application :
-    name : discovery-service
+    name : auth-service
   cloud :
     config :
       uri : http://${CONFIGURATION_HOST:localhost}:${CONFIGURATION_PORT:8888}
